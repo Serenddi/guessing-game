@@ -38,7 +38,7 @@ h1 {
   justify-content: center;
   align-items: center; 
 
-  border: 1px solid white;
+  border: 2px solid white;
 
   font-size: 40px;
   font-weight: 700;
@@ -69,7 +69,7 @@ button {
 
 input {
   background: none;
-  border: 1px solid white;
+  border: 2px solid white;
   height: 60px;
   width: 160px;
 
@@ -80,6 +80,12 @@ input {
 .message {
   font-weight: bold;
   margin-bottom: 30px
+}
+
+/*  */
+
+.win {
+  background: rgb(37, 129, 37);
 }
 
 @media (width < 561px) {
