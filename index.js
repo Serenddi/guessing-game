@@ -10,7 +10,10 @@ let secretNumber = Math.trunc(Math.random() * 20 + 1)
 check.addEventListener('click', guessNumber)
 
 function guessNumber() {
-  if (guess_number.value < secretNumber) {
+  if (guess_number.value == '') {
+    message.textContent = 'Not a number!'
+  }
+  else if (guess_number.value < secretNumber) {
     message.textContent = "Too low!"
   }
   else if (guess_number.value > secretNumber) {
