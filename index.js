@@ -6,6 +6,7 @@ let message = document.querySelector('.message');
 const check = document.querySelector('.check_btn')
 const reset = document.querySelector('.reset_btn')
 let score = 20;
+let highscore = 0;
 
 let secretNumber = Math.trunc(Math.random() * 20 + 1)
 
@@ -38,6 +39,11 @@ function guessNumber() {
     message.textContent = "You won!"
     number_place.textContent = secretNumber;
     document.body.style.background = 'rgb(46, 159, 46)';
+
+    if (score > highscore) {
+      highscore = score;
+      document.querySelector('.highscore').textContent = `Highscore: ${highscore}`;
+    }
   }
 }
 
