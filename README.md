@@ -12,8 +12,8 @@ After that you can see the text:
 
 or "You won! :)"
 
-Also one important thing - if you make a mistake, your score will decrease. When it will be 0 - you lost :(
-The string "Highscore" saves the highest score and you can see if your result is better than last one. 
+Also one important thing - if you make a mistake, your score will decrease. When it will be 0 - you lost :( After the click on Reset & after reload it would be 20 again.
+The string "Highscore" saves the highest score and you can see if your result is better than last one. It will change every time you play and won't delete after the click on Reset but it will delete after reload the page.
 
 Enjoy the game! 
 
